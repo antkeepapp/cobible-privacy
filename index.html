@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoBible - Privacy Policy</title>
+  <style>
+    :root {
+      --primary: #1A237E;
+      --secondary: #FFA000;
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --text: #212121;
+      --text-muted: #666666;
+      --border: #E0E0E0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --primary: #5C6BC0;
+        --secondary: #FFB300;
+        --bg: #121212;
+        --card-bg: #1E1E1E;
+        --text: #E0E0E0;
+        --text-muted: #9E9E9E;
+        --border: #2C2C2C;
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: var(--card-bg);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+    h1 {
+      color: var(--primary);
+      margin-top: 0;
+      font-size: 28px;
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 20px;
+      margin-top: 28px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+    p, li {
+      font-size: 15px;
+      color: var(--text);
+    }
+    .badge {
+      display: inline-block;
+      background-color: var(--secondary);
+      color: #000;
+      font-weight: bold;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      margin-bottom: 16px;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Privacy Policy</div>
+    <h1>CoBible Privacy Policy</h1>
+    <p><strong>Effective Date:</strong> October 20, 2026<br>
+    <strong>Last Updated:</strong> October 20, 2026</p>
+
+    <p>Welcome to <strong>CoBible</strong>. We respect your privacy and are committed to protecting your personal information. This Privacy Policy outlines our transparent approach to data storage, permissions, and third-party integrations.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p><strong>Personal Data:</strong> We do <em>not</em> collect, track, or share any personal identity information. CoBible does not require registration, phone numbers, email addresses, or account creation.</p>
+    <p><strong>Reading & Study Data:</strong> Your bookmarks, reading plan progress, study notes, highlighted verses, and preferences are stored <strong>strictly locally on your device</strong> (using Hive and SharedPreferences). We have no access to this data, and it is never transferred to any proprietary servers.</p>
+
+    <h2>2. Third-Party AI Services</h2>
+    <p>CoBible offers generative AI research tools powered by <strong>Google Gemini API</strong>.</p>
+    <ul>
+      <li>When you analyze a Bible chapter or verse, only the selected scriptural excerpt and your specific study prompt are sent to Google Gemini servers to synthesize educational explanations.</li>
+      <li>No personal identifiers, device credentials, or user profiles are sent with these requests.</li>
+      <li>If you specify a custom Google AI Studio key (BYOK), it is retained securely and solely on your device.</li>
+      <li>All interactions are governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+    </ul>
+
+    <h2>3. Audio Podcasts and Downloads</h2>
+    <p>Bible EPUB files and audio podcasts are streamed or downloaded directly from official, public distribution networks. We do not operate proxy servers that monitor your media consumption.</p>
+
+    <h2>4. Application Permissions</h2>
+    <ul>
+      <li><strong>Internet (android.permission.INTERNET):</strong> Required to fetch official publication files, stream podcasts, and generate AI insights.</li>
+      <li><strong>Foreground Service (FOREGROUND_SERVICE_MEDIA_PLAYBACK):</strong> Allows continuous audio playback via standard media notifications when the screen is locked.</li>
+      <li><strong>Local Notifications (POST_NOTIFICATIONS):</strong> Optional. Used strictly for on-device daily verse reminders and reading schedules that you configure.</li>
+    </ul>
+
+    <h2>5. Children’s Privacy</h2>
+    <p>CoBible does not collect information from anyone, including children under 13. The application is completely safe for audiences of all ages.</p>
+
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or feedback regarding this policy, feel free to contact us via GitHub or through the developer profile link on Google Play.</p>
+
+    <div class="footer">
+      &copy; 2026 CoBible. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
